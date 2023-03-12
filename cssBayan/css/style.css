@@ -1,0 +1,58 @@
+.wrapper {
+    background: #a19593;
+    max-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion_title {
+    padding: 4rem 0 1.5rem;
+}
+
+.accordion_main {
+    flex: 1 1 auto;
+}
+
+.accordion_container {
+    max-width: 45vw;
+    margin: 0 auto;
+    padding: 0 1.4rem;
+}
+
+.accordion_raws {
+    min-width: 40%;
+    font-size: 0.9em;
+}
+
+.accordion_raws:hover p {
+    color: black;
+}
+
+
+
+.raw_content {
+    font-size: 1em;
+    font-family: cursive;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4em 0;
+    border-top: 0.15em solid #cccccc;
+    background: #a19593;
+}
+
+.raw_title {
+    background: #a19593;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #0359d9;
+}
+
+.state_icon {
+    opacity: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #090909;
+}
